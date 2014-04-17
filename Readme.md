@@ -1,0 +1,101 @@
+###Abaco
+[![build status](https://secure.travis-ci.org/rootslab/abaco.png?branch=master)](http://travis-ci.org/rootslab/abaco) 
+[![NPM version](https://badge.fury.io/js/abaco.png)](http://badge.fury.io/js/abaco)
+
+[![NPM](https://nodei.co/npm/abaco.png?downloads=true&stars=true)](https://nodei.co/npm/abaco/)
+
+[![NPM](https://nodei.co/npm-dl/abaco.png)](https://nodei.co/npm/abaco/)
+
+> _Abaco_, an ultra fast number parser for Buffers.
+
+###Install
+
+```bash
+$ npm install abaco [-g]
+// clone repo
+$ git clone git@github.com:rootslab/abaco.git
+```
+
+> __require__ returns an helper hash/obj.
+
+```javascript
+var Abaco  = require( 'abaco' );
+```
+
+###Run Tests
+
+```bash
+$ cd abaco/
+$ npm test
+```
+
+###Run Benchmarks
+
+```bash
+$ cd abaco/
+$ npm run-script bench
+```
+
+###Sample Usage
+
+> See [examples](example/).
+
+
+###Methods
+
+> Arguments within [ ] are optional.
+
+```javascript
+/*
+ * Parse a Buffer containing a string representation of an integer Number.
+ * If radix is not specified, it defaults to 10, possible radix range is
+ * between 2 and 16.
+ * If begin or end are not specified, it parses the entire Buffer.
+ * It converts a string representation of a integer to a Number.
+ *
+ * NOTE: js number precision is limited to ~ 2^53 or 10^16, it means, for example,
+ * that the limit for decimal numbers is 16 bytes/chars; then it returns NaN for
+ * values out of this range. It also signals that is better to use raw String,
+ * because number representation is not accurate.
+ *
+ * NOTE: Only '-' prefix is supported, no 0x' or '0' prefix, for hex or octal
+ * digits; just use the begin offset for skipping some bytes.
+ *
+ */
+Abaco#parseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
+
+/*
+ * A strict parse, it returns NaN if the number parsed, contains some symbols
+ * that are not allowed for the current radix alphabet.
+ *
+ * Example: #parseInt( '012', 2 ) returns NaN, 2 is not in binary alphabet.
+ */
+Abaco#xparseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
+
+```
+
+------------------------------------------------------------------------
+
+
+### MIT License
+
+> Copyright (c) 2014 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+
+> Permission is hereby granted, free of charge, to any person obtaining
+> a copy of this software and associated documentation files (the
+> 'Software'), to deal in the Software without restriction, including
+> without limitation the rights to use, copy, modify, merge, publish,
+> distribute, sublicense, and/or sell copies of the Software, and to
+> permit persons to whom the Software is furnished to do so, subject to
+> the following conditions:
+
+> __The above copyright notice and this permission notice shall be
+> included in all copies or substantial portions of the Software.__
+
+> THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+> EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+> MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+> IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+> CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+> TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+> SOFTWARE OR THE USE OR OTHER DEALINGS IN T

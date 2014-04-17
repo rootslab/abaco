@@ -1,0 +1,42 @@
+{
+  "name": "abaco",
+  "version": "1.0.0",
+  "description": "Abaco, an ultra fast number parser for Buffers.",
+  "homepage": "https://github.com/rootslab/abaco",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootslab/abaco.git"
+  },
+  "keywords": [
+    "parseInt",
+    "decimal",
+    "integer",
+    "buffer",
+    "util",
+    "number",
+    "parser",
+    "string"
+  ],
+  "tags": [],
+  "author": {
+    "name": "Guglielmo Ferri",
+    "email": "44gatti@gmail.com"
+  },
+  "dependencies": {
+    },
+  "devDependencies": {},
+  "main": "index",
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "scripts": {
+    "test": "bash test/run.sh",
+    "bench": "bash bench/run.sh"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/rootslab/abaco/issues"
+  }
+}
