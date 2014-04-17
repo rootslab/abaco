@@ -68,7 +68,7 @@ Abaco#parseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) :
  * A strict parse, it returns NaN if the number parsed, contains some symbols
  * that are not allowed for the current radix alphabet.
  *
- * Example: #parseInt( '012', 2 ) returns NaN, 2 is not in binary alphabet.
+ * Example: #xparseInt( '012', 2 ) returns NaN, 2 is not in binary alphabet.
  */
 Abaco#xparseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
 
