@@ -47,16 +47,16 @@ $ npm run-script bench
 
 ```javascript
 /*
- * Parse a Buffer containing a string representation of an integer Number.
- * If radix is not specified, it defaults to 10, possible radix range is
- * between 2 and 16.
+ * Parse a Buffer that contains string representation of an integer Number.
+ * If radix is not specified, it defaults to 10; possible radix value range
+ * is between 2 and 16.
  * If begin or end are not specified, it parses the entire Buffer.
- * It converts a string representation of a integer to a Number.
  *
  * NOTE: js number precision is limited to ~ 2^53 or 10^16, it means, for example,
- * that the limit for decimal numbers is 16 bytes/chars; then it returns NaN for
- * values out of this range. It also signals that is better to use raw String,
- * because number representation is not accurate.
+ * that the limit for decimal numbers is 16 bytes/chars; so it returns NaN for
+ * values out of this range. NaN also signals that is better to use raw String,
+ * because number representation is not accurate. See 'bl' table in the code to
+ * check bytes limit for every radix.
  *
  * NOTE: Only '-' prefix is supported, no 0x' or '0' prefix, for hex or octal
  * digits; just use the begin offset for skipping some bytes.
