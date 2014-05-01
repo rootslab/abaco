@@ -1,6 +1,6 @@
 {
   "name": "abaco",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Abaco, an ultra fast number parser for Buffers.",
   "homepage": "https://github.com/rootslab/abaco",
   "private": false,
@@ -30,7 +30,7 @@
   "devDependencies": {},
   "main": "index",
   "engines": {
-    "node": ">=0.4.x"
+    "node": ">=0.6.x"
   },
   "scripts": {
     "test": "bash test/run.sh",
