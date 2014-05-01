@@ -9,7 +9,9 @@
 > _Abaco_, an ultra fast number parser for Buffers. It parses a Buffer, or a portion of it, to get the Number value stored as (ASCII) String.
 
 > It is faster than __parseInt()__, __parseFloat()__ and __Number()__ constructor to convert a String
-> or a Buffer to an usable Number.
+> or a Buffer to a usable Number.
+
+> NOTE: It adds tha ability to parse a float with a radix argument, as for #parseInt.
 
 ###Install
 
