@@ -1,7 +1,7 @@
 {
   "name": "abaco",
-  "version": "1.7.0",
-  "description": "Abaco, an ultra fast number parser for Buffers.",
+  "version": "1.8.0",
+  "description": "Abaco, an ultra fast number parser for Buffers. It parses a Buffer, or a portion of it, to get the Number value stored as (ASCII) String.",
   "homepage": "https://github.com/rootslab/abaco",
   "private": false,
   "repository": {
@@ -20,13 +20,12 @@
     "parser",
     "string"
   ],
-  "tags": [],
   "author": {
     "name": "Guglielmo Ferri",
     "email": "44gatti@gmail.com"
   },
   "dependencies": {
-    },
+  },
   "devDependencies": {},
   "main": "index",
   "engines": {

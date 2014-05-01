@@ -6,10 +6,10 @@
 
 [![NPM](https://nodei.co/npm-dl/abaco.png)](https://nodei.co/npm/abaco/)
 
-> _Abaco_, an ultra fast number parser for Buffers.
+> _Abaco_, an ultra fast number parser for Buffers. It parses a Buffer, or a portion of it, to get the Number value stored as (ASCII) String.
 
 > It is faster than __parseInt()__, __parseFloat()__ and __Number()__ constructor to convert a String
-> or a Buffer to a Number. 
+> or a Buffer to an usable Number.
 
 ###Install
 

@@ -28,7 +28,8 @@ var log = console.log
             Abaco.xparseInt( b );
         };
         etime = Date.now() - stime;
-        log( '\n- number: %s, parsed: %s', b, Abaco.xparseInt( b ) );
+        log( '\n- test repeated %s times.', l );
+        log( '- number: %s, parsed: %s', b, Abaco.xparseInt( b ) );
         log( '- Abaco#xparseInt %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }

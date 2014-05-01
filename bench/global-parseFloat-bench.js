@@ -27,7 +27,8 @@ var log = console.log
             parseFloat( s );
         };
         etime = Date.now() - stime;
-        log( '\n- number: %s, parsed: %s', b, parseFloat( b ) );
+        log( '\n- test repeated %s times.', l );
+        log( '- number: %s, parsed: %s', b, parseFloat( b ) );
         log( '- global parseFloat %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
