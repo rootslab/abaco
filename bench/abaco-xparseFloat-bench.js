@@ -1,14 +1,15 @@
 /* 
- * global Number constructor benchmark with Buffer to String conversion.
+ * Abaco#xparseFloat benchmark
  */
 
 var log = console.log
     , util = require( 'util' )
-    , s0 = '12'
-    , s1 = '1234'
-    , s2 = '12345678'
-    , s3 = '1234567890123456'
-    , s4 = '12345678901234567890123456789012'
+    , Abaco = require( '../' )
+    , s0 = '12.0001'
+    , s1 = '1234.001'
+    , s2 = '12345.678'
+    , s3 = '1.234567890123456'
+    , s4 = '12345.678901234567890123456789012'
     , b0 = new Buffer( s0 )
     , b1 = new Buffer( s1 )
     , b2 = new Buffer( s2 )
@@ -20,20 +21,20 @@ var log = console.log
     , etime = 0
     , run = function ( b, n ) {
         var i = 0
-            , s = new Buffer( b )
             , stime = Date.now()
             ;
+
         for( ; i < n; ++i ) {
-            Number( s );
+            Abaco.xparseFloat( b );
         };
         etime = Date.now() - stime;
-        log( '\n- number: %s, parsed: %s', b, Number( s ) );
-        log( '- Number constructor with %d bytes.', b.length );
+        log( '\n- number: %s, parsed: %s', b, Abaco.xparseFloat( b ) );
+        log( '- Abaco#xparseFloat %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
     ;
 
-log( '- benchmark Number constructor with Buffer.');
+log( '- benchmark Abaco#xparseFloat with Buffer.');
 
 run( b0, l );
 run( b1, l );

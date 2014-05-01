@@ -32,6 +32,7 @@ var log = console.log
         log( '- Abaco#parseInt %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
+    ;
 
 log( '- benchmark Abaco#parseInt with Buffer.');
 
