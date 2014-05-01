@@ -35,22 +35,22 @@ var log = console.log
 
 log( '- test message: String -> parseInt( Number ), Abaco#parseInt( Number ).' );
 
-log( '- parse octal number with leading 0s: %s -> %s, %s', n1, r1, r2 );
+log( '- parse (radix 8) number with leading 0s: %s -> %s, %s', n1, r1, r2 );
 assert.equal( r1, r2 );
 
-log( '- parse decimal number with leading 0s: %s -> %s, %s', n1, r3, r4 );
+log( '- parse (radix 10) number with leading 0s: %s -> %s, %s', n1, r3, r4 );
 assert.equal( r3, r4 );
 
-log( '- parse dec negative number with leading "-": %s -> %s, %s', n2, r6, r7 );
+log( '- parse (radix 10) negative number with leading "-": %s -> %s, %s', n2, r5, r6 );
 assert.equal( r5, r6 );
 
-log( '- parse binary string: %s -> %s, %s', n3, r7, r8 );
+log( '- parse (radix 2) string: %s -> %s, %s', n3, r7, r8 );
 assert.equal( r7, r8 );
 
-log( '- parse hexadecimal string: %s -> %s, %s', n4, r9, r10 );
+log( '- parse (radix 16) string: %s -> %s, %s', n4, r9, r10 );
 assert.equal( r9, r10 );
 
-log( '- parse a decimal integer out of range (>10^16) returns NaN: %s -> %s, %s', n5, r11, r12 );
+log( '- parse a (radix 10) integer out of range (>10^16) returns NaN: %s -> %s, %s', n5, r11, r12 );
 assert.ok( isNaN( r12 ) );
 
 log( '- parse number with wrong radix returns a wrong Number: %s -> %s, %s', n1, r13, r14 );
