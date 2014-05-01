@@ -8,8 +8,8 @@
 
 > _Abaco_, an ultra fast number parser for Buffers.
 
-> It is faster than __parseInt()__ method and __Number()__ constructor to convert a String 
-> or a Buffer to an integer Number.
+> It is faster than __parseInt()__, __parseFloat()__ and __Number()__ constructor to convert a String
+> or a Buffer to a Number. 
 
 ###Install
 
@@ -74,6 +74,20 @@ Abaco#parseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) :
  * Example: #xparseInt( '012', 2 ) returns NaN, 2 is not in binary alphabet.
  */
 Abaco#xparseInt( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
+
+/*
+ * Parse a Buffer that contains a string representation of an integer or float Number.
+ * If radix is not specified, it defaults to 10; possible radix value range
+ * is between 2 and 16.
+ * If begin or end are not specified, it parses the entire Buffer.
+ */
+Abaco#parseFloat( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
+
+/*
+ * A strict parseFloat, it returns NaN if the number parsed, contains some symbols
+ * that are not allowed for the current radix alphabet.
+ */
+Abaco#xparseFloat( Buffer b [, Number radix [, Number begin [, Number end ] ] ] ) : Number
 
 ```
 

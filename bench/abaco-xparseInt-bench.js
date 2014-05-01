@@ -1,5 +1,5 @@
 /* 
- * Abaco#parseInt benchmark
+ * Abaco#xparseInt benchmark
  */
 
 var log = console.log
@@ -28,12 +28,13 @@ var log = console.log
             Abaco.xparseInt( b );
         };
         etime = Date.now() - stime;
-        log( '\n- number: %s, parsed: %s', b, Abaco.parseInt( b ) );
-        log( '- Abaco#parseInt %d bytes.', b.length );
+        log( '\n- number: %s, parsed: %s', b, Abaco.xparseInt( b ) );
+        log( '- Abaco#xparseInt %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
+    ;
 
-log( '- benchmark Abaco#parseInt with Buffer.');
+log( '- benchmark Abaco#xparseInt with Buffer.');
 
 run( b0, l );
 run( b1, l );

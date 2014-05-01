@@ -1,14 +1,14 @@
 /* 
- * global Number constructor benchmark with Buffer to String conversion.
+ * global parseFloat benchmark
  */
 
 var log = console.log
     , util = require( 'util' )
-    , s0 = '12'
-    , s1 = '1234'
-    , s2 = '12345678'
-    , s3 = '1234567890123456'
-    , s4 = '12345678901234567890123456789012'
+    , s0 = '12.0001'
+    , s1 = '1234.001'
+    , s2 = '12345.678'
+    , s3 = '1.234567890123456'
+    , s4 = '12345.678901234567890123456789012'
     , b0 = new Buffer( s0 )
     , b1 = new Buffer( s1 )
     , b2 = new Buffer( s2 )
@@ -24,16 +24,16 @@ var log = console.log
             , stime = Date.now()
             ;
         for( ; i < n; ++i ) {
-            Number( s );
+            parseFloat( s );
         };
         etime = Date.now() - stime;
-        log( '\n- number: %s, parsed: %s', b, Number( s ) );
-        log( '- Number constructor with %d bytes.', b.length );
+        log( '\n- number: %s, parsed: %s', b, parseFloat( b ) );
+        log( '- global parseFloat %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
     ;
 
-log( '- benchmark Number constructor with Buffer.');
+log( '- benchmark Abaco#parseFloat with Buffer.');
 
 run( b0, l );
 run( b1, l );

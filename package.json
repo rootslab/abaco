@@ -1,6 +1,6 @@
 {
   "name": "abaco",
-  "version": "1.2.0",
+  "version": "1.5.0",
   "description": "Abaco, an ultra fast number parser for Buffers.",
   "homepage": "https://github.com/rootslab/abaco",
   "private": false,
@@ -10,8 +10,10 @@
   },
   "keywords": [
     "parseInt",
+    "parseFloat",
     "decimal",
     "integer",
+    "float",
     "buffer",
     "util",
     "number",

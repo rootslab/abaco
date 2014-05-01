@@ -4,7 +4,6 @@
 
 var log = console.log
     , util = require( 'util' )
-    , Abaco = require( '../' )
     , s0 = '12'
     , s1 = '1234'
     , s2 = '12345678'
