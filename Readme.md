@@ -1,17 +1,15 @@
 ###Abaco
 
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/abaco#mit-license)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/abaco.svg)](http://npm-stat.com/charts.html?package=abaco)
 
 [![NPM VERSION](http://img.shields.io/npm/v/abaco.svg)](https://www.npmjs.org/package/abaco)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/abaco.svg)](http://travis-ci.org/rootslab/abaco)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/abaco.svg)](https://david-dm.org/rootslab/abaco)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/abaco.svg)](https://david-dm.org/rootslab/abaco#info=devDependencies)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/abaco.png)](https://nodei.co/npm/abaco/)
-
-[![GITHUB tag](http://img.shields.io/github/tag/rootslab/abaco.svg)](https://github.com/rootslab/abaco/tags)
-[![ISSUES](http://img.shields.io/github/issues/rootslab/abaco.svg)](https://github.com/rootslab/abaco/issues)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/abaco.svg)](http://npm-stat.com/charts.html?package=abaco)
 
 [![NPM GRAPH2](https://nodei.co/npm/abaco.png?downloads=true&stars=true)](https://nodei.co/npm/abaco/)
 
