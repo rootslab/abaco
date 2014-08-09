@@ -20,7 +20,7 @@ var log = console.log
             , stime = 0
             , etime = 0
             ;
-        stime = Date.now()
+        stime = Date.now();
         for ( ; i < n; ++i ) Abaco.parseInt( b );
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );

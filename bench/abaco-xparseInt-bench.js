@@ -20,7 +20,6 @@ var log = console.log
             , stime = 0
             , etime = 0
             ;
-
         stime = Date.now();
         for ( ; i < n; ++i ) Abaco.xparseInt( b );
         etime = Date.now() - stime;

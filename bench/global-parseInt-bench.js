@@ -18,7 +18,7 @@ var log = console.log
         var i = 0
             , s = new Buffer( b )
             , etime = 0
-            , stime = o
+            , stime = 0
             ;
         stime = Date.now();
         for ( ; i < n; ++i ) {

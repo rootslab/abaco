@@ -3,7 +3,6 @@
  */
 
 var log = console.log
-    , util = require( 'util' )
     , s0 = '12.0001'
     , s1 = '1234.001'
     , s2 = '12345.678'
