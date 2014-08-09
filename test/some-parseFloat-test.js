@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 /* 
  * Abaco#parseFloat some tests on floating point numbers.
