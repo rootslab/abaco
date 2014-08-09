@@ -61,5 +61,10 @@
     "node"          : true,     // Node.js
 
     // Custom Globals
-    "globals"       : {}        // additional predefined global variables
+    "globals"       : {},       // additional predefined global variables
+
+    // Disable Warnings Globally
+    "-W099"         : false,    // disable: Mixed spaces and tabs.
+    "-W065"         : false,    // disable: Missing radix parameter.
+    "-W015"         : false     // disable: Expected 'X' to have an indentation at Y instead at Z.
 }
