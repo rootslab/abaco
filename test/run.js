@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-process.env.CODECLIMATE_REPO_TOKEN = 1c88dbab7c4124cd3b7baef49c272120014beca0cd347ef740e7acbbf1a080bf
 ( function () {
     var log = console.log
         , fs = require( 'fs' )
