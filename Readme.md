@@ -101,12 +101,12 @@ Abaco#xparseFloat( Buffer b [, Number radix [, Number begin [, Number end ] ] ] 
 /*
  * Parse a list of Buffer as integers.
  */
-Abaco#parseIntArray( Array buffers ) : Number
+Abaco#parseIntArray( Array buffers [, Number radix ] ) : Array
 
 /*
  * Parse a list of Buffer as floats.
  */
-Abaco#parseFloatArray( Array buffers ) : Number
+Abaco#parseFloatArray( Array buffers [, Number radix ] ) : Array
 
 ```
 
