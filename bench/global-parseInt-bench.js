@@ -3,7 +3,6 @@
  */
 
 var log = console.log
-    , util = require( 'util' )
     , s0 = '12'
     , s1 = '1234'
     , s2 = '12345678'
@@ -14,18 +13,17 @@ var log = console.log
     , b2 = new Buffer( s2 )
     , b3 = new Buffer( s3 )
     , b4 = new Buffer( s4 )
-    , i = 0
     , l = 1024 * 1024
-    , stime = 0
-    , etime = 0
     , run = function ( b, n ) {
         var i = 0
             , s = new Buffer( b )
-            , stime = Date.now()
+            , etime = 0
+            , stime = o
             ;
-        for( ; i < n; ++i ) {
+        stime = Date.now();
+        for ( ; i < n; ++i ) {
             parseInt( s );
-        };
+        }
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );
         log( '- number: %s, parsed: %s', b, parseInt( s ) );

@@ -3,7 +3,6 @@
  */
 
 var log = console.log
-    , util = require( 'util' )
     , Abaco = require( '../' )
     , s0 = '12'
     , s1 = '1234'
@@ -15,18 +14,14 @@ var log = console.log
     , b2 = new Buffer( s2 )
     , b3 = new Buffer( s3 )
     , b4 = new Buffer( s4 )
-    , i = 0
     , l = 1024 * 1024
-    , stime = 0
-    , etime = 0
     , run = function ( b, n ) {
         var i = 0
-            , stime = Date.now()
+            , stime = 0
+            , etime = 0
             ;
-
-        for( ; i < n; ++i ) {
-            Abaco.parseInt( b );
-        };
+        stime = Date.now()
+        for ( ; i < n; ++i ) Abaco.parseInt( b );
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );
         log( '- number: %s, parsed: %s', b, Abaco.parseInt( b ) );
