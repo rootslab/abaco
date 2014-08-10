@@ -1,5 +1,8 @@
 ###Abaco
 
+[![CODECLIMATE](https://codeclimate.com/github/rootslab/abaco/badges/gpa.svg)](https://codeclimate.com/github/rootslab/abaco)
+[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/abaco/badges/coverage.svg)](https://codeclimate.com/github/rootslab/abaco)
+
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/abaco#mit-license)
 [![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
 [![NPM DOWNLOADS](http://img.shields.io/npm/dm/abaco.svg)](http://npm-stat.com/charts.html?package=abaco)
