@@ -18,10 +18,9 @@ var log = console.log
         var i = 0
             , stime = 0
             , etime = 0
-            , s = new Buffer( b )
             ;
         stime = Date.now();
-        for ( ; i < n; ++i ) parseFloat( s );
+        for ( ; i < n; ++i ) parseFloat( b );
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );
         log( '- number: %s, parsed: %s', b, parseFloat( b ) );

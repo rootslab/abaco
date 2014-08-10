@@ -16,13 +16,12 @@ var log = console.log
     , l = 1024 * 1024
     , run = function ( b, n ) {
         var i = 0
-            , s = new Buffer( b )
             , etime = 0
             , stime = 0
             ;
         stime = Date.now();
         for ( ; i < n; ++i ) {
-            parseInt( s );
+            parseInt( b );
         }
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );
