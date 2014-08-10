@@ -1,16 +1,16 @@
 ###Abaco
 
-[![CODECLIMATE](https://codeclimate.com/github/rootslab/abaco/badges/gpa.svg)](https://codeclimate.com/github/rootslab/abaco)
-[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/abaco/badges/coverage.svg)](https://codeclimate.com/github/rootslab/abaco)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/abaco.svg?style=flat)](https://codeclimate.com/github/rootslab/abaco)
+[![CODECLIMATE-TEST-COVERAGE](http://img.shields.io/codeclimate/coverage/github/rootslab/abaco.svg?style=flat)](https://codeclimate.com/github/rootslab/abaco)
 
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/abaco#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/abaco.svg)](http://npm-stat.com/charts.html?package=abaco)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/abaco#mit-license)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg?style=flat)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/abaco.svg?style=flat)](http://npm-stat.com/charts.html?package=abaco)
 
-[![NPM VERSION](http://img.shields.io/npm/v/abaco.svg)](https://www.npmjs.org/package/abaco)
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/abaco.svg)](http://travis-ci.org/rootslab/abaco)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/abaco.svg)](https://david-dm.org/rootslab/abaco)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/abaco.svg)](https://david-dm.org/rootslab/abaco#info=devDependencies)
+[![NPM VERSION](http://img.shields.io/npm/v/abaco.svg?style=flat)](https://www.npmjs.org/package/abaco)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/abaco.svg?style=flat)](http://travis-ci.org/rootslab/abaco)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/abaco.svg?style=flat)](https://david-dm.org/rootslab/abaco)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/abaco.svg?style=flat)](https://david-dm.org/rootslab/abaco#info=devDependencies)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/abaco.png)](https://nodei.co/npm/abaco/)
 
