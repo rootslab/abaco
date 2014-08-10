@@ -8,7 +8,6 @@ before_script:
 script: istanbul cover -v test/run.js 
 after_script:
  - CODECLIMATE_REPO_TOKEN=1c88dbab7c4124cd3b7baef49c272120014beca0cd347ef740e7acbbf1a080bf codeclimate < coverage/lcov.info
-# after_success:
 addons:
  codeclimate:
   repo_token: 1c88dbab7c4124cd3b7baef49c272120014beca0cd347ef740e7acbbf1a080bf
