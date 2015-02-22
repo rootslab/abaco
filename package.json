@@ -1,45 +1,46 @@
 {
-  "name": "abaco",
-  "version": "1.10.1",
-  "description": "Abaco, an ultra fast number parser for Buffers. It parses a Buffer, or a portion of it, to get the Number value stored as (ASCII) String.",
-  "homepage": "https://github.com/rootslab/abaco",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rootslab/abaco.git"
-  },
-  "keywords": [
-    "parseInt",
-    "parseFloat",
-    "parseIntArray",
-    "parseFloatArray",
-    "decimal",
-    "integer",
-    "float",
-    "buffer",
-    "util",
-    "number",
-    "parser",
-    "string"
-  ],
-  "author": {
-    "name": "Guglielmo Ferri",
-    "email": "44gatti@gmail.com"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {},
-  "main": "index",
-  "engines": {
+  "name": "abaco"
+  , "version": "1.10.2"
+  , "description": "Abaco an ultra fast number parser for Buffers. It parses a Buffer or a portion of it to get the Number value stored as (ASCII) String."
+  , "homepage": "https://github.com/rootslab/abaco"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/abaco.git"
+  }
+  , "keywords": [
+    "parseInt"
+    , "parseFloat"
+    , "parseIntArray"
+    , "parseFloatArray"
+    , "decimal"
+    , "integer"
+    , "float"
+    , "buffer"
+    , "util"
+    , "number"
+    , "parser"
+    , "string"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  }
+  , "devDependencies": {
+  }
+  , "main": "index"
+  , "engines": {
     "node": ">=0.6.x"
-  },
-  "scripts": {
-    "test": "node test/run.js",
-    "bench": "bash bench/run.sh"
-  },
-  "license": "MIT",
-  "readmeFilename": "Readme.md",
-  "bugs": {
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+    , "bench": "bash bench/run.sh"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
     "url": "https://github.com/rootslab/abaco/issues"
   }
 }
