@@ -25,7 +25,7 @@ var log = console.log
         }
         etime = Date.now() - stime;
         log( '\n- test repeated %s times.', l );
-        log( '- number: %s, parsed: %s', b, parseInt( s ) );
+        log( '- number: %s, parsed: %s', b, parseInt( b ) );
         log( '- global parseInt %d bytes.', b.length );
         log( '- elapsed: %d ms', etime );
     }
