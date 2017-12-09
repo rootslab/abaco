@@ -1,6 +1,6 @@
 {
   "name": "abaco"
-  , "version": "1.11.1"
+  , "version": "1.11.2"
   , "description": "Abaco an ultra fast number parser for Buffers. It parses a Buffer or a portion of it to get the Number value stored as (ASCII) String."
   , "homepage": "https://github.com/rootslab/abaco"
   , "private": false
